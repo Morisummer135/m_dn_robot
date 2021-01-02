@@ -12,3 +12,5 @@ cqhttp/data/leveldb/000045.log
 cqhttp/codec/windows-amd64-encoder.exe
 cqhttp/config.hjson
 *.pyc
+*.sublime-project
+*.sublime-workspace
