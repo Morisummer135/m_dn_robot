@@ -1,0 +1,14 @@
+
+*.image
+*.ldb
+*.video
+*.amr
+cqhttp/data/leveldb/MANIFEST-000032
+cqhttp/data/leveldb/LOG
+cqhttp/data/leveldb/CURRENT.bak
+cqhttp/data/leveldb/CURRENT
+cqhttp/data/leveldb/000045.log
+*.log
+cqhttp/codec/windows-amd64-encoder.exe
+cqhttp/config.hjson
+*.pyc

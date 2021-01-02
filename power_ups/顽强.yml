@@ -1,0 +1,303 @@
+# 顽强强化
+data:
+  relative:
+    gold: 金币
+    mhd: 梦幻点
+    qjs: 青金石
+    sls: 石榴石
+    smjs: 生命精髓
+    special_protector: 耀眼保护药
+  inputs:
+    - special_protector:
+        lb: 1
+        ub: 1000
+  table:
+    0:
+      succ_ratio: 1
+      broken_ratio: 0
+      fail_result:
+        level: 0
+      succ_result:
+        level: 1
+      all_result:
+        gold: 3100
+        mhd: 600
+        qjs: 1
+        sls: 30
+        smjs: 30
+    1:
+      succ_ratio: 0.95
+      broken_ratio: 0
+      fail_result:
+        level: 0
+      succ_result:
+        level: 1
+      all_result:
+        gold: 3100
+        mhd: 600
+        qjs: 1
+        sls: 30
+        smjs: 30
+    2:
+      succ_ratio: 0.95
+      broken_ratio: 0
+      fail_result:
+        level: 0
+      succ_result:
+        level: 1
+      all_result:
+        gold: 3100
+        mhd: 600
+        qjs: 1
+        sls: 30
+        smjs: 30
+    3:
+      succ_ratio: 0.9
+      broken_ratio: 0
+      fail_result:
+        level: 0
+      succ_result:
+        level: 1
+      all_result:
+        gold: 3100
+        mhd: 600
+        qjs: 1
+        sls: 30
+        smjs: 30
+    4:
+      succ_ratio: 0.9
+      broken_ratio: 0
+      fail_result:
+        level: 0
+      succ_result:
+        level: 1
+      all_result:
+        gold: 3100
+        mhd: 600
+        qjs: 1
+        sls: 30
+        smjs: 30
+    5:
+      succ_ratio: 0.85
+      broken_ratio: 0
+      fail_result:
+        level: -1
+      succ_result:
+        level: 1
+      all_result:
+        gold: 3100
+        mhd: 600
+        qjs: 1
+        sls: 40
+        smjs: 40
+    6:
+      succ_ratio: 0.85
+      broken_ratio: 0
+      fail_result:
+        level: -2
+      succ_result:
+        level: 1
+      all_result:
+        gold: 3100
+        mhd: 600
+        qjs: 1
+        sls: 40
+        smjs: 40
+    7:
+      succ_ratio: 0.8
+      broken_ratio: 0
+      fail_result:
+        level: -3
+      succ_result:
+        level: 1
+      all_result:
+        gold: 3100
+        mhd: 600
+        qjs: 1
+        sls: 40
+        smjs: 40
+    8:
+      succ_ratio: 0.8
+      broken_ratio: 0
+      fail_result:
+        level: -4
+      succ_result:
+        level: 1
+      all_result:
+        gold: 3100
+        mhd: 600
+        qjs: 1
+        sls: 40
+        smjs: 40
+    9:
+      succ_ratio: 0.7
+      broken_ratio: 0
+      fail_result:
+        level: -5
+      succ_result:
+        level: 1
+      all_result:
+        gold: 3100
+        mhd: 600
+        qjs: 1
+        sls: 40
+        smjs: 40
+    10: 
+      succ_ratio: 0.5
+      broken_ratio: 1
+      broken_result:
+        level: -20
+      succ_result:
+        level: 1
+      all_result:
+        special_protector: -1
+        gold: 3100
+        mhd: 600
+        qjs: 1
+        sls: 50
+        smjs: 50
+    11: 
+      succ_ratio: 0.48
+      broken_ratio: 1
+      broken_result:
+        level: -20
+      succ_result:
+        level: 1
+      all_result:
+        special_protector: -1
+        gold: 3100
+        mhd: 600
+        qjs: 2
+        sls: 50
+        smjs: 50
+    12: 
+      succ_ratio: 0.44
+      broken_ratio: 1
+      broken_result:
+        level: -20
+      succ_result:
+        level: 1
+      all_result:
+        special_protector: -1
+        gold: 3100
+        mhd: 600
+        qjs: 3
+        sls: 50
+        smjs: 50
+    13: 
+      succ_ratio: 0.4
+      broken_ratio: 1
+      broken_result:
+        level: -20
+      succ_result:
+        level: 1
+      all_result:
+        special_protector: -1
+        gold: 3100
+        mhd: 600
+        qjs: 4
+        sls: 50
+        smjs: 50
+    14: 
+      succ_ratio: 0.33
+      broken_ratio: 1
+      broken_result:
+        level: -20
+      succ_result:
+        level: 1
+      all_result:
+        special_protector: -1
+        gold: 3100
+        mhd: 600
+        qjs: 5
+        sls: 50
+        smjs: 50
+    15: 
+      succ_ratio: 0.3
+      broken_ratio: 1
+      broken_result:
+        level: -20
+      succ_result:
+        level: 1
+      all_result:
+        special_protector: -1
+        gold: 3100
+        mhd: 600
+        qjs: 6
+        sls: 60
+        smjs: 60
+    16: 
+      succ_ratio: 0.28
+      broken_ratio: 1
+      broken_result:
+        level: -20
+      succ_result:
+        level: 1
+      all_result:
+        special_protector: -1
+        gold: 3100
+        mhd: 600
+        qjs: 7
+        sls: 60
+        smjs: 60
+    17: 
+      succ_ratio: 0.25
+      broken_ratio: 1
+      broken_result:
+        level: -20
+      succ_result:
+        level: 1
+      all_result:
+        special_protector: -1
+        gold: 3100
+        mhd: 600
+        qjs: 8
+        sls: 60
+        smjs: 60
+    18: 
+      succ_ratio: 0.22
+      broken_ratio: 1
+      broken_result:
+        level: -20
+      succ_result:
+        level: 1
+      all_result:
+        special_protector: -1
+        gold: 3100
+        mhd: 600
+        qjs: 9
+        sls: 60
+        smjs: 60
+    19: 
+      succ_ratio: 0.2
+      broken_ratio: 1
+      broken_result:
+        level: -20
+      succ_result:
+        level: 1
+      all_result:
+        special_protector: -1
+        gold: 3100
+        mhd: 600
+        qjs: 10
+        sls: 60
+        smjs: 60
+  summary:
+    level:
+      count_type: counter
+      display_list:
+      - 10
+      - 11
+      - 12
+      - 13
+      - 14
+      - 15
+      - 16
+      - 17
+      - 18
+      - 19
+      - 20
+    gold:
+      count_type: sum
+  on_max_level:
+  - special_protector

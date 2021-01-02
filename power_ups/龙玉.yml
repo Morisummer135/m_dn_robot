@@ -1,0 +1,53 @@
+# 龙玉强化
+data:
+  init_level: 10
+  relative:
+    gold: 金币
+    core: 精致核心
+  inputs:
+    - core:
+        lb: 1
+        ub: 200
+  table:
+    10: 
+      succ_ratio: 0.2
+      succ_result:
+        level: 1
+      all_result:
+        core: -1
+        gold: 1000
+    11: 
+      succ_ratio: 0.1
+      succ_result:
+        level: 1
+      all_result:
+        core: -1
+        gold: 1000
+    12: 
+      succ_ratio: 0.05
+      succ_result:
+        level: 1
+      all_result:
+        core: -1
+        gold: 1000
+    13: 
+      succ_ratio: 0.03
+      succ_result:
+        level: 1
+      all_result:
+        core: -1
+        gold: 1000
+    14: 
+      succ_ratio: 0.01
+      succ_result:
+        level: 1
+      all_result:
+        core: -1
+        gold: 1000
+  summary:
+    level:
+      count_type: max
+    gold:
+      count_type: sum
+  on_max_level:
+  - core
